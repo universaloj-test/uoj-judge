@@ -211,7 +211,7 @@ void parse_args(int argc, char **argv) {
 		string pre[3] = {abspath(0, string(self_path) + "/../runtime/jdk1.7.0_80/bin/java"), "-Xmx1024m", "-Xss1024m"};
 		run_program_config.argv.insert(run_program_config.argv.begin(), pre, pre + 3);
 	} else if (run_program_config.type == "java8u31") {
-		string pre[3] = {abspath(0, string(self_path) + "/../runtime/jdk1.8.0_162/bin/java"), "-Xmx1024m", "-Xss1024m"};
+		string pre[3] = {abspath(0, string(self_path) + "/../runtime/jdk1.8.0_31/bin/java"), "-Xmx1024m", "-Xss1024m"};
 		run_program_config.argv.insert(run_program_config.argv.begin(), pre, pre + 3);
 	}
 }
